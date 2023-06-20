@@ -15,7 +15,7 @@ function countdown() {
   const seconds = Math.floor((TotalSeconds) % 60);
 
   // Updating HTML elements with the new values.
-  elementDays.innerHTML = days;
+  elementDays.innerHTML = showZeros(days);
   elementHours.innerHTML = showZeros(hours);
   elementMinutes.innerHTML = showZeros(minutes);
   elementSeconds.innerHTML = showZeros(seconds);
