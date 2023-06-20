@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(/images/glyfada1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+h1 {
+  align-items: center;
+  text-align: center;
+  font-size: 4rem;
+}
+
+
+.countdown-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  text-align: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+}
+
+p {
+  font-size: 8rem;
+}
+
+.span-heading {
+  color: white;
+}
+
+#message {
+  font-size: 10rem;
+
+}
+
+.message-s {
+  color: rgb(235, 231, 231);
+  font-weight: lighter;
+  font-size: 12rem;
+}
+
+
+@media (max-width: 500px) {
+  #minutes, #seconds {
+    color: white;
+  }
+
+  #message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
+  
+  .message-s {
+    font-size: 8rem;
+  }
+}
