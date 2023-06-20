@@ -6,7 +6,7 @@
 
 body {
   min-height: 100vh;
-  background-image: url(/images/glyfada1.png);
+  background-image: url(../../images/glyfada1.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -68,7 +68,7 @@ p {
     justify-content: center;
     font-size: 5rem;
   }
-  
+
   .message-s {
     font-size: 8rem;
   }
