@@ -1,5 +1,11 @@
 const moving = "14 August 2023";
 
+// Storing values to represent the remaining time to each element.
+const elementDays = document.getElementById(`days-p`);
+const elementHours = document.getElementById(`hours-p`);
+const elementMinutes = document.getElementById(`minutes-p`);
+const elementSeconds = document.getElementById(`seconds-p`);
+
 function countdown() {
   const movingDate = new Date(moving);
   const currentDate = new Date();
@@ -31,12 +37,6 @@ function countdown() {
   }
 }
 
-// Storing values to represent the remaining time to each element.
-const elementDays = document.getElementById(`days-p`);
-const elementHours = document.getElementById(`hours-p`);
-const elementMinutes = document.getElementById(`minutes-p`);
-const elementSeconds = document.getElementById(`seconds-p`);
-
 // This function gives a '0' in front of each value when they are dropping less than 10
 function showZeros(time) {
   if (time < 10) {
@@ -49,6 +49,7 @@ function showZeros(time) {
 // Updating countdown values every 1 second (1000 milliseconds)
 setInterval(countdown, 1000);
 
+// Calling function
 countdown();
 
 
