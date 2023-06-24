@@ -1,6 +1,6 @@
 # Countdown Timer  
 ## Description  
-A simple countdown timer, showing up the remaining time left, till an event happens.  
+A simple countdown timer, can be set to give the exact time remaining till an event happens. 
 
 ## Live Preview  
 https://jordanpapaditsas.github.io/countdown-timer/
