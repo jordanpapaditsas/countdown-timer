@@ -10,3 +10,7 @@ Tech-stack  used for the project:
 - HTML5
 - CSS
 - JavaScript
+
+## Copyrights ©️  
+The picture used for the app  
+is only for personal use.
