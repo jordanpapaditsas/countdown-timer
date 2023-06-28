@@ -12,5 +12,4 @@ Tech-stack  used for the project:
 - JavaScript
 
 ## Copyrights ©️  
-The picture used for the app  
-is only for personal use.
+The picture used for the app, is only for personal use.
