@@ -1,4 +1,4 @@
-const moving = "14 August 2023";
+const moving = "12 August 2023";
 
 // Storing values to represent the remaining time to each element.
 const elementDays = document.getElementById(`days-p`);
